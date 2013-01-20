@@ -1,0 +1,35 @@
+p { 
+  font-family: verdana; 
+  font-size:.75em; 
+  color: #a6a6a6; 
+  margin-bottom: 10px;  
+}
+
+h1 { 
+  margin: 0px; 
+  font-family: chunkfive;  
+  font-size: 25px;  
+  letter-spacing: .5px; 
+  font-weight: normal;
+  line-height: 26px; 
+  margin-bottom: 5px; 
+  color: #222120; 
+}
+
+h2 { 
+  margin: 0px;
+  font-family: chunkfive; 
+  font-size: 24px; 
+  letter-spacing: .5px; 
+  font-weight: normal;
+  line-height: 26px;
+  margin-bottom: 20px;
+  color: #222120;
+}
+
+strong { 
+  font-family: verdana; 
+  font-size: 12px; 
+  font-weight: bold; 
+  color: #222120;
+}

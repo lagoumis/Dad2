@@ -1,0 +1,39 @@
+.front #region-content {
+  margin: 0;
+}
+
+.front #page-title {
+  display: none;
+}
+
+.front #boxes-box-home_banner_image img {
+  border-bottom: solid 10px #222120;
+}
+
+.front #zone-content {
+  background: #fff url(../images/fancyborder2.png) no-repeat 0 307px;
+  padding-bottom: 45px;
+}
+
+.front h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+#region-postscript-first,
+#region-postscript-second,
+#region-postscript-third,
+#region-postscript-fourth {
+  margin: 0px;
+  margin-bottom: 20px;
+  width: 180px;
+  height: 230px;
+  padding: 0px 29px 15px 29px;
+}
+
+#region-postscript-first,
+#region-postscript-second,
+#region-postscript-third {
+  border-right: #f1f1f1 solid 1px;
+}

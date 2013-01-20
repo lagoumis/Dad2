@@ -1,0 +1,31 @@
+#main-menu {
+  float: right;
+  margin-bottom: 0;
+  margin-top: -4px;
+}
+
+#zone-menu  {
+  background: #fff url(../images/fancyborder.png) no-repeat 0 5px;
+  border-bottom: solid 10px #222120;
+  padding-bottom: 17px;
+}
+
+#main-menu a {
+  color: #A6A6A6;
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+#main-menu .active {
+  color: #333;
+  font-family: chunkfive;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+#main-menu li {
+  padding: 0 11px 0 11px;
+  width: 30px;
+}

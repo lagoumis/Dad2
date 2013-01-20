@@ -1,2 +1,41 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+@font-face {
+  font-family: "chunkfive";
+  src: url("../images/Chunkfive.otf")
+}
+
+body {
+  background: #2b2a28;
+}
+
+#zone-branding,
+#zone-menu,
+#zone-content,
+#zone-postscript {
+  background: #fff;
+}
+
+#zone-footer {
+  background: #212120;
+}
+
+/* footer */
+
+.space {
+  margin-left: 20px;
+}
+
+#zone-footer .boxes-box-content {
+  float: right;
+  margin-right: 10px;
+}
+
+#zone-footer .boxes-box-content {
+  margin-bottom: 4px;
+}
+
+#zone-footer .boxes-box-content p {
+  color: #676767;
+}
