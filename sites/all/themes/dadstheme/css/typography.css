@@ -5,6 +5,16 @@ p {
   margin-bottom: 10px;  
 }
 
+#page a,
+#page a:link,
+#page a:visited {
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: bold;
+  color: #222120;
+  text-decoration: none;
+}
+
 h1 { 
   margin: 0px; 
   font-family: chunkfive;  
@@ -31,5 +41,13 @@ strong {
   font-family: verdana; 
   font-size: 12px; 
   font-weight: bold; 
+  color: #222120;
+}
+
+#page .read-more a,
+#page a.read-more {
+  font-family: verdana;
+  font-style: italic;
+  font-size: 10px;
   color: #222120;
 }
