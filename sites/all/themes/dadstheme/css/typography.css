@@ -5,9 +5,9 @@ p {
   margin-bottom: 10px;  
 }
 
-#page a,
-#page a:link,
-#page a:visited {
+.page a,
+.page a:link,
+.page a:visited {
   font-family: verdana;
   font-size: 12px;
   font-weight: bold;
@@ -32,8 +32,6 @@ h2 {
   font-size: 24px; 
   letter-spacing: .5px; 
   font-weight: normal;
-  line-height: 26px;
-  margin-bottom: 20px;
   color: #222120;
 }
 
@@ -51,3 +49,7 @@ strong {
   font-size: 10px;
   color: #222120;
 }
+
+#page a:hover {
+  text-decoration: underline;
+} 

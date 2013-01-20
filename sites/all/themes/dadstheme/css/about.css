@@ -1,0 +1,17 @@
+.page-node-4 #page-title {
+  display: none;
+}
+
+.page-node-4 .field-type-text-with-summary img {
+  float: left;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.page-node-4 .field-type-text-with-summary .field-items {
+  margin-right: 40px;
+}
+
+.page-node-4 .about-space {
+  margin-top: 30px;
+}
