@@ -10,6 +10,10 @@ body {
   background: #2b2a28;
 }
 
+.account strong {
+  color: #8ed700;
+}
+
 #zone-branding,
 #zone-menu,
 #zone-content,
