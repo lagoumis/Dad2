@@ -1,3 +1,10 @@
 .node-type-composition #zone-content {
   padding-top: 20px;
 }
+
+/* browse menu */
+.block-browse-menu-block { 
+  border-right: #f1f1f1 solid 1px;
+  min-height: 250px;
+  padding: 20px 20px 30px 20px;
+}

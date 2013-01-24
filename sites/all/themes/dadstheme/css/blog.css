@@ -1,0 +1,118 @@
+.context-blog #zone-content,
+.node-type-blog #zone-content  {
+  padding-top: 20px;
+}
+
+.context-blog .region-sidebar-first-inner, 
+.node-type-blog .region-sidebar-first-inner {
+  background: #F2F2F2;
+  padding: 20px 20px 30px 20px;
+}
+
+.node-type-blog .written-by {
+  font-family: verdana; 
+  font-size: 12px; 
+  font-weight: bold;
+  font-style: italic;
+  color: #3b3b3b;
+}
+
+.node-type-blog .author {
+  font-family: verdana; 
+  font-size: 12px; 
+  color: #616161;
+}
+
+/* Recent Blog posts */
+#block-views-blog-recent-posts-block .block-title {
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+#block-views-blog-recent-posts-block {
+  margin-bottom: 40px;
+}
+
+#block-views-blog-recent-posts-block a {
+  font-size: 11px;
+  font-weight: 200;
+  color: #878787;
+}
+
+#block-views-blog-recent-posts-block .views-row {
+  margin-bottom: 5px;
+}
+
+/* Archive blog list */
+#block-views-archive-block .block-title {
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+
+#block-views-archive-block li {
+  margin-left: 0;
+}
+
+#block-views-archive-block a {
+  font-size: 11px;
+  font-weight: 200;
+  color: #878787;
+}
+
+/* Blog node second sidebar */
+
+#boxes-box-blog_node_sidebar_second {
+  background: #f9f9f9;
+  padding: 17px;
+}
+
+#boxes-box-blog_node_sidebar_second p {
+  margin-bottom: 0;
+}
+
+/* Blog nodes */
+.node-type-blog #page-title {
+  display: none;
+}
+
+.node-type-blog .field-name-field-blog-image {
+  float: left;
+  padding: 0 20px 20px 0;
+}
+
+.node-type-blog  h2 {
+  margin-bottom: 0;
+}
+
+.node-type-blog .field-name-post-date {
+  border-bottom: solid 1px #f1f1f1 ;
+  font-family: verdana; 
+  font-size: 12px; 
+  font-style: italic;
+  color: #a6a6a6; 
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+/*Blog overview page*/
+.view-blog-overview-page .views-row  {
+  margin-bottom: 30px;
+}
+
+.view-blog-overview-page {
+  margin-top: 5px;
+}
+
+.view-blog-overview-page .views-field-created {
+  border-bottom: solid 1px #f1f1f1 ;
+  font-family: verdana; 
+  font-size: 12px; 
+  font-style: italic;
+  color: #a6a6a6; 
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.view-blog-overview-page p {
+  margin: 0;
+}

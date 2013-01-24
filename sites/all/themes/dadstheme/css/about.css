@@ -5,7 +5,7 @@
 .page-node-4 .field-type-text-with-summary img {
   float: left;
   margin-right: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .page-node-4 .field-type-text-with-summary .field-items {
@@ -13,5 +13,12 @@
 }
 
 .page-node-4 .about-space {
-  margin-top: 30px;
+  margin-top: 40px;
 }
+
+.page-node-4 .region-content-inner {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+

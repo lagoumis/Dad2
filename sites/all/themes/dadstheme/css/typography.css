@@ -1,6 +1,6 @@
 p { 
   font-family: verdana; 
-  font-size:.75em; 
+  font-size: 11px; 
   color: #a6a6a6; 
   margin-bottom: 10px;  
 }
@@ -15,24 +15,15 @@ p {
   text-decoration: none;
 }
 
-h1 { 
+h1, h2, #page h2 a { 
   margin: 0px; 
   font-family: chunkfive;  
-  font-size: 25px;  
+  font-size: 30px;  
   letter-spacing: .5px; 
   font-weight: normal;
   line-height: 26px; 
   margin-bottom: 5px; 
   color: #222120; 
-}
-
-h2 { 
-  margin: 0px;
-  font-family: chunkfive; 
-  font-size: 24px; 
-  letter-spacing: .5px; 
-  font-weight: normal;
-  color: #222120;
 }
 
 strong { 

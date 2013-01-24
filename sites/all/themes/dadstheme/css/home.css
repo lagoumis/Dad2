@@ -12,7 +12,7 @@
 
 .front #zone-content {
   background: #fff url(../images/fancyborder2.png) no-repeat 0 307px;
-  padding-bottom: 45px;
+  padding-bottom: 50px;
 }
 
 .front h2 {
@@ -20,10 +20,10 @@
   text-transform: uppercase;
 }
 
-#region-postscript-first,
-#region-postscript-second,
-#region-postscript-third,
-#region-postscript-fourth {
+.front #region-postscript-first,
+.front #region-postscript-second,
+.front #region-postscript-third,
+.front #region-postscript-fourth {
   margin: 0px;
   margin-bottom: 20px;
   width: 180px;
@@ -31,9 +31,9 @@
   padding: 0px 29px 15px 29px;
 }
 
-#region-postscript-first,
-#region-postscript-second,
-#region-postscript-third {
+.front #region-postscript-first,
+.front #region-postscript-second,
+.front #region-postscript-third {
   border-right: #f1f1f1 solid 1px;
 }
 
@@ -46,9 +46,37 @@
 }
 
 .front #zone-postscript {
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 .front #zone-content {
   padding-top: 0px;
+}
+
+.front .block-title {
+  margin-bottom: 15px;
+}
+
+.front p,
+.front .block-title {
+  text-align: center;
+}
+
+.front .views-row div {
+  text-align: center;
+}
+
+.front .read-more {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.front .read-more {
+  background: url(../images/read-more-frill.png)  no-repeat 16px -5px;
+  width: 150px;
+}
+
+.front a.read-more {
+  display: inline-block;
+  padding-top: 3px;
 }
