@@ -2,7 +2,7 @@
 #block-boxes-blog-node-sidebar-second {
   background: #ebebeb;
   padding: 15px;
-  padding-bottom: 12px;
+  padding-bottom: 25px;
 }
 
 #block-boxes-blog-node-sidebar-second img {
@@ -32,7 +32,7 @@
 /* Archive blog list */
 #block-views-archive-block {
   background: #f9f9f9;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 #block-views-archive-block li {
@@ -48,7 +48,7 @@
 /* Recent Blog posts */
 #block-views-blog-recent-posts-block {
   background: #f9f9f9;
-  padding: 0px 20px 20px 20px;
+  padding: 10px 20px 20px 20px;
 }
 
 #block-views-blog-recent-posts-block a {
@@ -94,7 +94,8 @@
 }
 
 /*Blog overview page*/
-.view-blog-overview-page .views-row  {
+.view-blog-overview-page .views-row,
+.context-archive #block-system-main .views-row  {
   margin-bottom: 30px;
   padding: 0 20px;
 }
@@ -103,7 +104,8 @@
   margin-top: 10px;
 }
 
-.view-blog-overview-page .views-field-created {
+.view-blog-overview-page .views-field-created,
+.view-archive .views-field-created  {
   border-bottom: solid 1px #f1f1f1 ;
   font-family: verdana; 
   font-size: 12px; 
@@ -111,9 +113,11 @@
   color: #a6a6a6; 
   margin-bottom: 10px;
   padding-bottom: 5px;
+  margin-top: -5px;
 }
 
-.view-blog-overview-page p {
+.view-blog-overview-page p,
+.view-archive p {
   margin: 0;
 }
 
@@ -136,4 +140,10 @@
 
 .node-type-blog #block-system-main .node-blog {
   padding: 0 18px;
+}
+
+.context-archive  #page-title {
+  font-size: 18px;
+  margin-bottom: 13px;
+  padding-left: 20px;
 }

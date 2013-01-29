@@ -7,7 +7,7 @@
 #zone-menu  {
   background: #fff url(../images/fancyborder.png) no-repeat 0 5px;
   border-bottom: solid 10px #222120;
-  padding-bottom: 18px;
+  /*padding-bottom: 15px;*/
 }
 
 #main-menu a {
@@ -21,7 +21,7 @@
 #main-menu .active {
   color: #333;
   font-family: chunkfive;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 24px;
 }
 
