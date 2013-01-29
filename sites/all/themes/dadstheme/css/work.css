@@ -3,7 +3,7 @@
 }
 
 .page-node-5 #zone-content {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 /* published works block */
@@ -39,8 +39,27 @@
   font-size: 20px;
 }
 
-#zone-content {
-  padding-bottom: 20px;
+.page-node-5 #region-content {
+  width: 690px;
+}
+
+.page-node-5 .work-section {
+  margin-bottom: 30px;
+}
+
+.page-node-5 #region-content .region-content-inner {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#block-webform-client-block-10 {
+  background: #F2F2F2;
+  margin-top: 10px;
+  padding: 15px;
+}
+
+#block-webform-client-block-10 .grippie {
+  display: none;
 }
 
 /*Want to commission a piece */

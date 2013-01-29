@@ -34,6 +34,11 @@ label {
 
 .page-node-10 .region-content-inner {
   margin-top: 30px;
-  margin-left: 30px;
+  margin-left: 43px;
   margin-right: 30px;
+}
+
+ .page-node-10 .webform-component #edit-submitted-name,
+.page-node-10 .webform-component #edit-submitted-email {
+  width: 397px;
 }

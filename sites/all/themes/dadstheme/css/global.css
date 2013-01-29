@@ -21,9 +21,6 @@ body {
   background: #fff;
 }
 
-#zone-footer {
-  background: #212120;
-}
 
 /* footer */
 .space {
@@ -35,13 +32,15 @@ body {
   margin-right: 10px;
 }
 
-#zone-footer .boxes-box-content {
-  margin-bottom: 4px;
-}
-
 #zone-footer .boxes-box-content p {
   color: #676767;
 }
+
+#zone-footer {
+  background: #212120;
+  height: 60px;
+}
+
 
 /* submit button */
 #edit-submit {
@@ -58,4 +57,60 @@ body {
   text-transform: uppercase;
 }
 
+/*  pager */
+.pager {
+  background: none;
+  border: none;
+  float: right;
+}
+
+#page .pager-next,
+#page .pager-last,
+#page .pager-first,
+#page .pager-previous,
+#page .pager-ellipsis {
+  display: none;
+}
+
+#page .pager-current {
+  border-radius: 0; -moz-border-radius: 0; -webkit-border-radius: 0;
+}
+
+#page li {
+  font-size: 11px;
+  border: none;
+  margin-right: 5px;
+}
+
+#zone-content {
+  padding-bottom: 20px;
+}
+
+#section-content {
+  min-height: 677px;
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+#page .pager-current {
+  background: #222120;
+  padding: 8px 12px;
+}
+
+#page .pager-item a {
+  background: #fff;
+  color: #222120;
+  font-size: 11px;
+  padding: 8px 12px;
+}
+
+.context-user .region-content-inner {
+  padding: 20px;
+}
+
+.webform-component #edit-submitted-name,
+.webform-component #edit-submitted-email {
+  width: 100%;
+}
 
