@@ -1,6 +1,7 @@
 p { 
   font-family: verdana; 
   font-size: 11px; 
+  font-weight: normal;
   color: #5d5d5d; 
   margin-bottom: 10px;  
   line-height: 20px;
@@ -31,12 +32,22 @@ h1, h2, #page h2 a {
 .page-node-5 #page #region-sidebar-second h2,
 #block-boxes-blog-node-sidebar-second h2 { /* heading 22px*/
   font-size: 22px;
+  line-height: 22px;
 }
 
 .context-blog #page #region-sidebar-second h2,
 #block-views-archive-block .block-title,
 #block-views-blog-recent-posts-block h2  { /*heading smaller*/
   font-size: 16px;
+}
+
+.view-blog-overview-page .views-field-created, /*itallic grey sub head*/
+.view-archive .views-field-created,
+.views-field-field-written-for  {
+  font-family: verdana; 
+  font-size: 12px; 
+  font-style: italic;
+  color: #a6a6a6; 
 }
 
 strong { 

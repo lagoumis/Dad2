@@ -13,12 +13,6 @@
   line-height: 15px;
 }
 
-.context-blog #zone-content,
-.node-type-blog #zone-content,
-.context-archive #zone-content  {
-  padding-top: 20px;
-}
-
 .node-type-blog .written-by {
   font-family: verdana; 
   font-size: 12px; 
@@ -79,10 +73,6 @@
   padding: 0 20px 11px 0;
 }
 
-.node-type-blog #region-sidebar-first h2 {
-  margin-bottom: 0;
-}
-
 .node-type-blog .field-name-post-date {
   font-family: verdana; 
   font-size: 12px; 
@@ -104,13 +94,9 @@
   margin-top: 10px;
 }
 
-.view-blog-overview-page .views-field-created,
-.view-archive .views-field-created  {
-  border-bottom: solid 1px #f1f1f1 ;
-  font-family: verdana; 
-  font-size: 12px; 
-  font-style: italic;
-  color: #a6a6a6; 
+.view-blog-overview-page .views-field-created, 
+.view-archive .views-field-created {
+  border-bottom: solid 1px #f1f1f1;
   margin-bottom: 10px;
   padding-bottom: 5px;
   margin-top: -5px;
@@ -123,6 +109,7 @@
 
 #block-boxes-blog-node-sidebar-second h2 {
  margin-top: 15px;
+ margin-bottom: 10px;
  text-align: center;
 }
 
@@ -143,7 +130,17 @@
 }
 
 .context-archive  #page-title {
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 13px;
   padding-left: 20px;
+  letter-spacing: 1px;
+}
+
+.page-blog .region-content-inner,
+.node-type-blog .region-content-inner  {
+  margin: 0;
+}
+
+.page-archive .region-content-inner {
+  margin: 0;
 }
