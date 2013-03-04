@@ -71,8 +71,9 @@
   margin-top: 10px;
 }
 
-.front .read-more {
+.front #page .read-more {
   background: url(../images/read-more-frill.png)  no-repeat 16px -5px;
+  padding: 0;
   width: 150px;
 }
 
